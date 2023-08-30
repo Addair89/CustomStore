@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Prompt:wght@400;600;700&family=Roboto&family=Roboto+Slab&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

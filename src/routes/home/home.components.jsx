@@ -31,7 +31,6 @@ function Home() {
     }
   ]
   
-
   return <Directory categories={categories} />;
 }
 

@@ -8,8 +8,8 @@ const FormInput = ({ lable, ...otherProps }) => {
             {lable && (
               <label className={`${otherProps.value.length ? 'shrink' : ''} form-input-label`}>{lable}</label>
             )}
-        </div>
-    )
+        </div> 
+    ) 
 }
 
 export default FormInput;

@@ -3,6 +3,7 @@ import Home from './routes/home/home.components'
 import Navigation from './routes/navigation/navigation.component';
 import Authentication from './routes/authentication/authentication.components';
 import Shop from './routes/shop/shop.component';
+import Checkout from './routes/checkout/checkout.component';
 
 
 
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path='shop' element={<Shop />} />
         <Route path='auth' element={<Authentication />} />
+        <Route path='checkout' element={<Checkout />} />
       </Route>
     </Routes>
   );
